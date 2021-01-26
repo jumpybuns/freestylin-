@@ -11,9 +11,6 @@ export default class App extends Component {
       <div>
         <Router>
           <NavBar />
-          <Link className="link1" to="/aboutMe">
-            About Me
-          </Link>
           <Switch>
             <Route
               exact

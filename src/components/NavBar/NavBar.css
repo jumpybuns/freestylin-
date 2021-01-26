@@ -1,0 +1,37 @@
+.navbar {
+  background-color: blue;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menuBars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.navMenu {
+  background-color: blue;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  /* left: -100%; */
+  transition: 850ms;
+}
+
+.navMenuActive {
+  left: 0;
+  transition: 350ms;
+}
+
+.navText {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px;
+}
