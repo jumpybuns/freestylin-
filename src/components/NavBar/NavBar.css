@@ -1,4 +1,4 @@
-.navbar {
+.navBar {
   background-color: blue;
   height: 80px;
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  /* left: -100%; */
+  left: -100%;
   transition: 850ms;
 }
 
@@ -33,5 +33,36 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 8px 0px 8px;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.navText a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.navText a:hover {
+  background-color: teal;
+}
+
+.navMenuItems {
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
 }
