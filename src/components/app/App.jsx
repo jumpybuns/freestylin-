@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import Home from '../Home/Home.js';
 import AboutMe from '../AboutMe/AboutMe.js';
+import NavBar from '../NavBar/NavBar';
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <Router>
+          <NavBar />
           <Link className="link1" to="/aboutMe">
             About Me
           </Link>
