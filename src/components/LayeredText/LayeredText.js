@@ -3,6 +3,6 @@ import styles from './LayeredText.css';
 
 export default class LayeredText extends Component {
   render() {
-    return <div className={styles.text}>Roses</div>;
+    return <div className={styles.text}>Bemis</div>;
   }
 }
