@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#red' }}>
+      <IconContext.Provider value={{ color: 'red' }}>
         <div className={styles.navBar}>
           <Link to="#" className={styles.menuBars}>
             <FaIcons.FaBars onClick={showSidebar} />
