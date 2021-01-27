@@ -6,6 +6,7 @@ import AboutMe from '../AboutMe/AboutMe.js';
 import NavBar from '../NavBar/NavBar';
 import CSSFun from '../CSS FUN/CSSFun';
 import CSS2 from '../CSS2/CSS2.js';
+import LayeredText from '../LayeredText/LayeredText';
 
 export default class App extends Component {
   render() {
@@ -33,6 +34,11 @@ export default class App extends Component {
               exact
               path="/css2"
               render={(routerProps) => <CSS2 {...routerProps} />}
+            />
+            <Route
+              exact
+              path="/layeredtext"
+              render={(routerProps) => <LayeredText {...routerProps} />}
             />
           </Switch>
         </Router>
